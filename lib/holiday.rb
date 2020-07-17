@@ -74,6 +74,10 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.each do |season, holiday_data|
     holiday_data.each do |holiday, supplies|
+      holiday_name = holiday.to_s 
+      holiday_name_sep = holiday_name.split
+      
+      holiday_name_sep.each{|
       
     end
   end
