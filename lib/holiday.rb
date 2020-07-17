@@ -81,7 +81,8 @@ def all_supplies_in_holidays(holiday_hash)
       
       holiday_name = holiday_name_sep.join
       
-      puts <<SEASONAL
+      puts <<SEASONAL_SUPPLIES
+      
       
     end
   end
