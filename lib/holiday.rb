@@ -79,6 +79,10 @@ def all_supplies_in_holidays(holiday_hash)
       
       holiday_name_sep.each{|proper_noun| proper_noun.capitalize!}
       
+      holiday_name = holiday_name_sep.join
+      
+      puts 
+      
     end
   end
 
